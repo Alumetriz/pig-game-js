@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -64,9 +65,11 @@ main {
 .player--active {
     background-color: rgba(255, 255, 255, 0.4);
 }
+
 .player--active .name {
     font-weight: 700;
 }
+
 .player--active .score {
     font-weight: 400;
 }
@@ -130,9 +133,11 @@ main {
 .btn--new {
     top: 3rem;
 }
+
 .btn--roll {
     top: 40rem;
 }
+
 .btn--hold {
     top: 46rem;
 }
@@ -161,4 +166,8 @@ main {
 .player--winner .name {
     font-weight: 700;
     color: #d50b0b;
+}
+
+.hidden {
+    display: none;
 }
